@@ -6,11 +6,12 @@ export default function ExperienceHeader() {
     <div
       className="
       sticky 
-      top-5 m-4 
+      top-5 z-50 
+      m-4 
       flex 
       h-[60px] 
       justify-between 
-      bg-none 
+      bg-none
       p-3
       text-white
       "

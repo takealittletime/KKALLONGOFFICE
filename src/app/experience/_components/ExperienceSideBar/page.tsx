@@ -1,17 +1,15 @@
 export default function ExperienceSideBar() {
   return (
-    <div>
-      <div className="absolute left-5 mt-3 flex h-[80dvh] flex-col bg-none">
-        <p className="cursor-pointer text-[7rem] font-bold hover:text-[rgba(250,250,250,0.5)]">
-          All
-        </p>
-        <p className="cursor-pointer text-[7rem] font-bold hover:text-[rgba(250,250,250,0.5)]">
-          PERSONAL
-        </p>
-        <p className="cursor-pointer text-[7rem] font-bold hover:text-[rgba(250,250,250,0.5)]">
-          BRANDS
-        </p>
-      </div>
-    </div>
+    <ul className="pointer-events-none absolute left-5 z-50 mt-3 inline-flex flex-col items-start bg-none">
+      <li className="pointer-events-auto cursor-pointer text-[7rem] font-bold hover:text-[rgba(250,250,250,0.5)]">
+        All
+      </li>
+      <li className="pointer-events-auto cursor-pointer text-[7rem] font-bold hover:text-[rgba(250,250,250,0.5)]">
+        PERSONAL
+      </li>
+      <li className="pointer-events-auto cursor-pointer text-[7rem] font-bold hover:text-[rgba(250,250,250,0.5)]">
+        BRANDS
+      </li>
+    </ul>
   );
 }
